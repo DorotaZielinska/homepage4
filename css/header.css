@@ -1,0 +1,32 @@
+.header {
+    min-width: auto;
+    color: #150c03;
+    background-color: #ffff;
+    text-align: center;
+  
+}
+.header__colorName {
+    color: #076910;
+}
+
+.js__button {
+    background-color: rgb(7, 3, 12);
+    color: white;
+    margin-top: 20px;
+    
+}
+.js__button:hover {
+    background-color: #076910;
+}
+.header__link {
+    min-width: auto;
+    border: 1px solid #150c03;
+    border-radius: 2px 2px 2px 2px;
+    color: rgb(17, 16, 16);
+    background-color: rgba(255, 255, 255, 0.77);
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.header__link:hover {
+    background-color: #42f341;
+}

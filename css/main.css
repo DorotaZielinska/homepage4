@@ -1,0 +1,35 @@
+.main__heading {
+    min-width: auto;
+    color: #ec8115;
+    font-size: 40px;
+    text-align: center;
+    border-top: 1px solid #42f341;
+    border-bottom: 1 px solic #42f341;
+    
+}
+.main__mojeProjekty {
+    color: #150c03;
+    background-color: white;
+    border-top: 1px solid #42f341;
+   margin: 0 px; 
+}
+.main__mojeProjekty--outline {
+  padding: 20px;  
+}
+.main__toolkit {
+    background-color: rgba(171, 171, 219, 0.77);
+    text-align: center;
+}
+.main__sectionParagraph {
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.main__sectionParagraph--outline {
+    background-color: rgba(171, 171, 219, 0.77);
+    padding: 20px;
+}
+.main__oMnie--image {
+    align-items: center;
+}

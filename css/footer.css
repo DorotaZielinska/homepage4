@@ -1,0 +1,31 @@
+.footer__containerFooter {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.footer__heading {
+        min-width: auto;
+        color: #ec8115;
+        font-size: 40px;
+        text-align: center;
+        border-top: 1px solid #42f341;
+        border-bottom: 1 px solic #42f341;      
+}
+.footer__link {
+    text-decoration: none;
+    color: #513fb6;
+}
+.footer__link:focus {
+    outline: 2px solid currentColor;
+}
+.footer__link:hover {
+    color: #7b450f;
+}
+.footer__link:active {
+    color: #513fb6;
+}
+.footer__smallFooter {
+    color: rgb(17, 16, 16);
+    background-color: rgba(171, 171, 219, 0.77);
+    text-align: center;   
+}

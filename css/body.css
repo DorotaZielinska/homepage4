@@ -1,0 +1,12 @@
+.body {
+    background-color: rgba(255, 255, 255, 0.77);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;  
+}
+.body--dark {
+    color: #f4f4f6;
+    background-color: rgb(7, 3, 12);
+}
+/*zmienić w js z .dark na .body--dark*/

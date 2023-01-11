@@ -1,0 +1,50 @@
+.section__heading {
+    min-width: auto;
+    color: #ec8115;
+    font-size: 40px;
+    text-align: center;
+    border-top: 1px solid #42f341;
+    border-bottom: 1 px solic #42f341;
+    
+}
+.section__myProjects {
+    color: #150c03;
+    background-color: white;
+    border-top: 1px solid #42f341;
+   margin: 0 px; 
+   padding: 20px;
+}
+.section__listElement {
+  padding: 20px;  
+}
+.section__toolkit {
+    background-color: rgba(171, 171, 219, 0.77);
+    text-align: center;
+}
+.section__paragraph {
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.section__paragraph.section__paragraph--outline {
+    background-color: rgba(171, 171, 219, 0.77);
+    padding: 20px;
+}
+.section__image {
+    align-items: center;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #513fb6;
+}
+.section__link:focus {
+    outline: 2px solid currentColor;
+}
+.section__link:hover {
+    color: #7b450f;
+}
+.section__link:active {
+    color: #513fb6;
+}
