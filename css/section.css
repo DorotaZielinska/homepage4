@@ -13,7 +13,14 @@
     border-top: 1px solid #42f341;
    margin: 0 px; 
    padding: 20px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
 }
+.section__myProjects--lastItemFlex{
+    border-top: none;
+}
+
 .section__listElement {
   padding: 20px;  
 }
