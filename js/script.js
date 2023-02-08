@@ -1,24 +1,13 @@
 {
-    const welcome = () => {
-        console.log("Witam, udanego czytania since-fiction!");
-    }
-
     const toogleBackground = () => {
-
         const body = document.querySelector(".body");
-        const js__themeName = document.querySelector(".js__themeName");
+        const themeName = document.querySelector(".themeName");
         body.classList.toggle("body--dark");
-        js__themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+        themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
     };
-    
-
-    const init = () => {
-        const js__button = document.querySelector(".js__button");
-        js__button.addEventListener("click", toogleBackground);
-        
+    const resultOfCurrentModul = (currentModul,howMuch) => {
         const currentModul = document.querySelector(".currentModul").innerText;
         const howMuch = document.querySelector(".howMuch");
-
         switch (currentModul) {
             case "1":
             case "2":
@@ -45,6 +34,13 @@
                 break;
             case "16":
                 howMuch.innerText = "ukończenie kursu";
+        }
+    }
+    const init = () => {
+        const button = document.querySelector(".button");
+        button.addEventListener("click", toogleBackground);
+        const welcome = () => {
+            console.log("Witam, udanego czytania since-fiction!");
         }
         welcome();
     };
